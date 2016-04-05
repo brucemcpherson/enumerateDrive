@@ -1,5 +1,5 @@
 # Google Apps Script Project: enumerateDrive
-This repo (enumerateDrive) was automatically updated on 05 April 2016 10:44:04 BST by GasGit
+This repo (enumerateDrive) was automatically updated on 05 April 2016 11:55:02 BST by GasGit
 
 For more information see the [desktop liberation site](http://ramblings.mcpher.com/Home/excelquirks/drivesdk/gettinggithubready "desktop liberation") or [contact me on G+](https://plus.google.com/+BruceMcpherson "Bruce McPherson - GDE")
 ## Details for Apps Script project enumerateDrive
@@ -14,15 +14,11 @@ index| html
 ### Directly referenced libraries
 *library*|*identifier*|*key*|*version*|*dev mode*|*source*|
 --- | --- | --- | --- | --- | --- 
-cDependencyService| cDependencyService|Me90hDkr73ajS2dd-CDc4V6i_d-phDA33|23|no|[here](libraries/cDependencyService "library source")
-cUseful| cUseful|Mcbr-v4SsYKJP7JMohttAZyz3TLx7pV4j|49|no|[here](libraries/cUseful "library source")
+cUseful| cUseful|Mcbr-v4SsYKJP7JMohttAZyz3TLx7pV4j|51|no|[here](libraries/cUseful "library source")
 ### All dependencies and sub dependencies
 *library*|*identifier*|*key*|*version*|*dev mode*|*source*|
 --- | --- | --- | --- | --- | --- 
-cDependencyService| cDependencyService|Me90hDkr73ajS2dd-CDc4V6i_d-phDA33|23|no|[here](libraries/cDependencyService "library source")
-cUseful| cUseful|Mcbr-v4SsYKJP7JMohttAZyz3TLx7pV4j|26|no|[here](libraries/cUseful "library source")
-cUrlResult| cUrlResult|M59PE-C_VqcthwNDmXB9gsCz3TLx7pV4j|11|no|[here](libraries/cUrlResult "library source")
-cCacheHandler| cCacheHandler|M3reA5eBxtwxSqCEgPywb9ai_d-phDA33|16|no|[here](libraries/cCacheHandler "library source")
+cUseful| cUseful|Mcbr-v4SsYKJP7JMohttAZyz3TLx7pV4j|51|no|[here](libraries/cUseful "library source")
 ### Enabled Google Services
 *library*|*identifier*|*version*
 --- | --- | --- 
