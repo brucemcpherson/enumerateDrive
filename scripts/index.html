@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://ssl.gstatic.com/docs/script/css/add-ons.css">
+    <base target="_top">
+  </head>
+  <body>
+    <? var data = enumerateFiles('/' , '' , true ); 
+       var headings = data.results.length ? Object.keys(data.results[0]) : []; 
+    ?>
+    <p>
+      Elapsed ms <?=data.elapsed?>
+      files <?=data.results.length?>
+      ms per file <?=Math.round(data.elapsed/data.results.length)?>
+    </p>
+    <table>
+    <tr>
+      <? headings.forEach (function(h) {
+        ?><th><?=h?></th>
+      <? }); ?>  
+    </tr>
+      <? data.results.forEach(function(d) { ?><tr><?
+         headings.forEach (function(h) {
+          ?><td><?=d[h]?></td>
+          <?});?>
+         </tr> <?
+         });
+       ?>
+    </table>
+  </body>
+</html>
+
+
