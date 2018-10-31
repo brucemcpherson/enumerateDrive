@@ -1,5 +1,5 @@
 # Google Apps Script Project: enumerateDrive
-This repo (enumerateDrive) was automatically updated on 27 July 2016 10:35:29 BST by GasGit
+This repo (enumerateDrive) was automatically updated on 31 October 2018 11:39:41 GMT by GasGit
 
 For more information see the [desktop liberation site](http://ramblings.mcpher.com/Home/excelquirks/drivesdk/gettinggithubready "desktop liberation") or [contact me on G+](https://plus.google.com/+BruceMcpherson "Bruce McPherson - GDE")
 ## Details for Apps Script project enumerateDrive
@@ -11,19 +11,22 @@ The shared link for [enumerateDrive is here](https://script.google.com/d/18hQeTq
 --- | --- 
 enumerate| server_js
 index| html
+appsscript| json
 ### Directly referenced libraries
 *library*|*identifier*|*key*|*version*|*dev mode*|*source*|
 --- | --- | --- | --- | --- | --- 
-cUseful| cUseful|Mcbr-v4SsYKJP7JMohttAZyz3TLx7pV4j|51|no|[here](libraries/cUseful "library source")
+cUseful| cUseful|1EbLSESpiGkI3PYmJqWh3-rmLkYKAtCNPi1L2YCtMgo2Ut8xMThfJ41Ex|51|no|[here](libraries/cUseful "library source")
 ### All dependencies and sub dependencies
 *library*|*identifier*|*key*|*version*|*dev mode*|*source*|
 --- | --- | --- | --- | --- | --- 
-cUseful| cUseful|Mcbr-v4SsYKJP7JMohttAZyz3TLx7pV4j|51|no|[here](libraries/cUseful "library source")
+cUseful| cUseful|1EbLSESpiGkI3PYmJqWh3-rmLkYKAtCNPi1L2YCtMgo2Ut8xMThfJ41Ex|51|no|[here](libraries/cUseful "library source")
 ### Enabled Google Services
 *library*|*identifier*|*version*
 --- | --- | --- 
 Prediction| Prediction|v1.6
 Calendar| Calendar|v3
 Drive| Drive|v2
-###Need more detail ?
+### Scopes required
+no scopes discovered
+### Need more detail ?
 You can see [full project info as json here](info.json)
